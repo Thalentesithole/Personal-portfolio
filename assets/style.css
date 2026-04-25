@@ -483,3 +483,37 @@ html, body{
 ::-webkit-scrollbar-thumb { background: var(--border-glow); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--accent-primary); }
 ::selection { background: rgba(59,158,255,0.25); color: var(--text-primary); }
+
+@media (max-width:768px){
+
+  .nav{
+    padding: 0 1rem;
+    gap: .5rem;
+  }
+
+  .nav__logo{
+    font-size: 1.2rem;
+    max-width: 75%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .nav__toggle{
+    font-size: 1.8rem;
+  }
+}
+
+.header{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+}
+
+.nav{
+  height:70px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 16px;
+}
