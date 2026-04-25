@@ -411,6 +411,41 @@ body::after {
   100% { opacity: 0; transform: translateY(-90px) scale(1.2); }
 }
 
+html, body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.header,
+.nav,
+.nav__container{
+  width: 100%;
+  max-width: 100%;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.nav__logo{
+  flex-shrink: 0;
+}
+
+.nav__toggle{
+  margin-left: auto;
+  position: relative;
+  right: 0;
+  flex-shrink: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
 /* ── Mobile ── */
 @media (max-width: 768px) {
   .nav__toggle { display: flex; }
