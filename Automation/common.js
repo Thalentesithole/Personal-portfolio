@@ -1,7 +1,3 @@
-/**
- * common.js — Thalente Sithole Portfolio
- * Obsidian Tech: premium dark portfolio interactions
- */
 
 (() => {
   'use strict';

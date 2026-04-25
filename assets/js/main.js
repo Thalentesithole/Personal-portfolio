@@ -1,7 +1,3 @@
-/* ============================================================
-   THALENTE SITHOLE — Enhanced Portfolio JS
-   ============================================================ */
-
 /* 1. Floating neural background */
 (function() {
   const bg = document.createElement('div');
@@ -241,10 +237,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     btn.disabled = true;
     btn.textContent = 'SENDING...';
 
-    // ── Option A: EmailJS (recommended, free & no backend needed) ──────────
-    // 1. Sign up at https://www.emailjs.com
-    // 2. npm install @emailjs/browser  OR add their CDN script
-    // 3. Replace the three IDs below with your own
 
     emailjs.sendForm('service_v5p6u3h', 'template_70m38kd', form, '_sEvzwV8RwYy7RX9V')
       .then(() => {
@@ -262,10 +254,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
         btn.textContent = 'SEND';
       });
 
-    // ── Option B: Formspree (even simpler — just change your form action) ──
-    // Replace <form action="" ...> with:
-    // <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" ...>
-    // Then you DON'T need this JS submit handler at all — Formspree handles it.
   });
 })();
 
