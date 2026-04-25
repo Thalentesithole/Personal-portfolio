@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href = "assets/style.css"/>
+  <link rel="stylesheet" href = "assets/skin/Color1.css"/>
+  <title>Thalente Sithole</title>
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <!-- Logo injected by JS -->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home"      class="nav__link active-link">Home</a></li>
+          <li><a href="#hello"     class="nav__link">About</a></li>
+          <li><a href="#resume"    class="nav__link">Experience</a></li>
+          <li><a href="#skills"    class="nav__link">Skills</a></li>
+          <li><a href="#Portfolio" class="nav__link">Portfolio</a></li>
+          <li><a href="#contact"   class="nav__link">Contact</a></li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ── Main ── -->
+  <main class="main">
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <img src="assets/images/Thalente.jpeg" alt="Thalente Sithole" class="home__image"/>
+        <div class="home__data">
+          <h1 class="home__name">Thalente Sithole</h1>
+          <p class="home__work"></p>
+          <dl class="home__list">
+            <dt>AGE:</dt>    <dd>25</dd>
+            <dt>PHONE:</dt>  <dd>+27 73 775 6626</dd>
+            <dt>EMAIL:</dt>  <dd>Thalentesithole1@gmail.com</dd>
+            <dt>Region:</dt> <dd>Durban, South Africa</dd>
+            <dd><a href="#hello" class="about">About me<i class="ri-arrow-right-line"></i></a></dd>
+          </dl>
+          <div class="home__socials">
+            <a href="https://github.com/Thalentesithole" target="_blank" class="home__socials-link"><i class="ri-github-line"></i></a>
+            <a href="https://www.linkedin.com/in/thalente-sithole-a863911b5/" target="_blank" class="home__socials-link"><i class="ri-linkedin-box-line"></i></a>
+            <a href="https://www.facebook.com/thalente.sithole.397" target="_blank" class="home__socials-link"><i class="ri-facebook-box-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HELLO / ABOUT -->
+    <section class="hello section container" id="hello">
+      <h2 class="section__title">Hello_</h2>
+      <p class="hello__details text-lg">
+        I'm anspiring AI Software Engineer with a BSc in Computer Science and hands-on experience building AI-integrated
+        applications, automation systems, and data-driven solutions. Completed an AI Engineer Bootcamp, gaining practical
+        experience in Machine Learning, NLP, and Generative AI, with a strong focus on real-world application development.
+        Skilled in Python, JavaScript, SQL, and backend systems, with proven ability to integrate AI into functional products.
+        Passionate about building AI-powered tools that improve user experience and deliver meaningful impact, particularly in
+        wellbeing and human-centered applications.
+      </p>
+      <a href="assets/Documents/Thalente Sithole - Resume.pdf" class="button button--flex text-sm">
+        <h3 class="download">Download my CV</h3>
+        <i class="ri-download-line"></i>
+      </a>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section container" id="resume">
+      <h2 class="section__title">Experience_</h2>
+      <div class="resume__container grid">
+        <div class="resume__data">
+          <h3 class="resume__title text-sm">EDUCATION</h3>
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">University of the Western Cape</h3>
+            <p class="resume__date text-sm">Jan 2019 – July 2023</p>
+            <h3 class="resume__course">BSc Computer Science &amp; Mathematics</h3>
+            <p class="resume__description">Demonstrated proficiency in programming languages such as Java, Python, and C through coursework and independent projects. Participated in research projects applying mathematical concepts to real-world problems, resulting in presentations at academic conferences.</p>
+          </div>
+        </div>
+        <div class="resume__data">
+          <h3 class="resume__title text-sm">EMPLOYMENT</h3>
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">Samsung Future-Innovation Lab</h3>
+            <p class="resume__date text-sm">Sep 2023 – June 2024</p>
+            <h3 class="resume__course">RPA Developer Intern</h3>
+            <p class="resume__description">Developed automation solutions using RPA tools, resulting in a 30% increase in operational efficiency. Collaborated with cross-functional teams to design workflows and conducted rigorous testing of automation scripts.</p>
+          </div>
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">Redefined IT Group</h3>
+            <p class="resume__date text-sm">Sep 2025 – Present</p>
+            <h3 class="resume__course">Software Engineer Intern</h3>
+            <p class="resume__description">Designed and optimised SQL queries improving data retrieval efficiency. Developed backend logic, automation scripts, and data validation processes. Collaborated in an Agile team environment contributing to sprint planning and code reviews.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="skills">
+      <h2 class="section__title">Skills_</h2>
+      <div class="skills__container grid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="Work section container" id="Portfolio">
+      <h2 class="section__title">Work_</h2>
+      <div class="project__categories">
+        <button class="category__btn text-xs active-work" data-filter="all">ALL</button>
+        <button class="category__btn text-xs" data-filter=".automate">AI and Automation</button>
+        <button class="category__btn text-xs" data-filter=".dash">DASHBOARDS</button>
+        <button class="category__btn text-xs" data-filter=".web">WEBSITES</button>
+        <button class="category__btn text-xs" data-filter=".app">APPS</button>
+      </div>
+      <div class="project__container grid">
+        <div class="project__item grid mix automate">
+          <img src="assets/images/Learners-license.jpg" alt="" class="project__img">
+          <div class="project__details">
+            <h3 class="project__title text-lg">Learner's License AI Assistant</h3>
+            <p class="project__description">An AI-powered chatbot designed to help users study and understand learner’s license rules, road signs, and driving theory through interactive conversation.</p>
+            <h4 class="project__stack text-xs">USED STACK</h4>
+            <ul class="tags text-sm"><li>Flask (Python)</li><li>OpenAI, LangChain</li><li>Pinecone</li><li>HuggingFace</li><li>Docker, GitHub Actions, AWS</li></ul>
+            <a href="http://13.61.3.145:8080/" class="project__link text-sm">Check it out<i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="project__item grid mix app">
+          <img src="assets/images/chatroom.jpg" alt="" class="project__img">
+          <div class="project__details">
+            <h3 class="project__title text-lg">CHAT Room</h3>
+            <p class="project__description">A robust and scalable Chat Room API that facilitates real-time communication between users, enabling seamless chat experiences across platforms.</p>
+            <h4 class="project__stack text-xs">USED STACK</h4>
+            <ul class="tags text-sm"><li>HTML5</li><li>CSS</li><li>Python</li><li>JavaScript</li></ul>
+            <a href="https://github.com/Thalentesithole/Chat-Room" class="project__link text-sm">Source Code<i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="project__item grid mix automate">
+          <img src="assets/images/Customer-Service.jpg" alt="" class="project__img">
+          <div class="project__details">
+            <h3 class="project__title text-lg">RPA Customer Service</h3>
+            <p class="project__description">Customer service automation solution with case management, self-service portal, and knowledge base integration using Automation Anywhere.</p>
+            <h4 class="project__stack text-xs">USED STACK</h4>
+            <ul class="tags text-sm"><li>Automation Anywhere</li><li>MSSQL</li><li>Outlook</li><li>Power BI</li></ul>
+            <a href="Automation/Automation.html" class="project__link text-sm">See more<i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="project__item grid mix automate">
+          <img src="assets/images/CV-Critique.jpg" alt="" class="project__img">
+          <div class="project__details">
+            <h3 class="project__title text-lg">Resume AI Critique</h3>
+            <p class="project__description">An AI-powered web application that analyzes resumes and provides detailed, actionable feedback to improve job application success.</p>
+            <h4 class="project__stack text-xs">USED STACK</h4>
+            <ul class="tags text-sm"><li>Salesforce</li>
+              <li>Python</li>
+              <li>Streamlit</li>
+              <li>OpenAI API</li>
+              <li>PyPDF2</li>
+              <li>python-dotenv</li>
+            </ul>
+            <a href="https://github.com/Thalentesithole/Resume-Critique.git" class="project__link text-sm">Source Code<i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="project__item grid mix app">
+          <img src="assets/images/Driving-School.jpg" alt="" class="project__img">
+          <div class="project__details">
+            <h3 class="project__title text-lg">Drving Schools SaaS</h3>
+            <p class="project__description">A full-stack Driving School management SaaS built with React + Vite, featuring real-time lesson booking powered by ASAP.net — helping instructors manage schedules and students book lessons with ease.</p>
+            <h4 class="project__stack text-xs">USED STACK</h4>
+            <ul class="tags text-sm">
+              <li>ASAP.NET</li>
+              <li>MS SQL Server</li>
+              <li>Git</li>
+              <li>React + vite</li>
+            </ul>
+            <a href="https://github.com/NNGuma/DRIVING-SCHOOL.git" class="project__link text-sm">Source Code<i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="project__item grid mix automate">
+          <img src="assets/images/AI Agent.jpg" alt="" class="project__img">
+          <div class="project__details">
+            <h3 class="project__title text-lg">AI Agent</h3>
+            <p class="project__description">An interactive AI chatbot built with Streamlit and LangChain, powered by OpenAI models. This project provides a simple web-based interface where users can ask questions and receive intelligent responses in real-time.</p>
+            <h4 class="project__stack text-xs">USED STACK</h4>
+            <ul class="tags text-sm"><li>Python, Dotenv</li><li>Streamlit</li><li>OpenAI, LangChain</li></ul>
+            <a href="https://github.com/Thalentesithole/The-AI-Agent.git" class="project__link text-sm">See more<i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="project__item grid mix dash">
+          <img src="assets/images/Dahsboard.jpg" alt="" class="project__img">
+          <div class="project__details">
+            <h3 class="project__title text-lg">Customer Dashboard</h3>
+            <p class="project__description">Interactive customer services analytics dashboard with live KPI tracking and drill-down reporting for business stakeholders.</p>
+            <h4 class="project__stack text-xs">USED STACK</h4>
+            <ul class="tags text-sm"><li>Power BI</li></ul>
+            <a href="assets/Documents/Customer Service Dashboard.pdf" class="project__link text-sm">Dashboard.pdf<i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="project__item grid mix automate">
+          <img src="assets/images/Robot-framework.jpg" alt="" class="project__img">
+          <div class="project__details">
+            <h3 class="project__title text-lg">Heroku App Automation</h3>
+            <p class="project__description">Test automation project built using Robot Framework to automate interactions with the-internet.herokuapp.com. Demonstrates modular test design and reusable keywords.</p>
+            <h4 class="project__stack text-xs">USED STACK</h4>
+            <ul class="tags text-sm"><li>Robot Framework</li><li>Python</li><li>Selenium</li></ul>
+            <a href="https://github.com/Thalentesithole/Heroku-App-Automation.git" class="project__link text-sm">Source Code<i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="contact__content container">
+        <h2 class="section__title">Get in touch_</h2>
+        <div class="contact__container grid">
+          <div class="contact__info">
+            <dl class="contact__list">
+              <dt>Phone:</dt>   <dd>+27 73 775 6626</dd>
+              <dt>Outlook:</dt> <dd>thalentesithole@outlook.com</dd>
+              <dt>Email:</dt>   <dd>Thalentesithole1@gmail.com</dd>
+            </dl>
+            <ul class="contact__socials">
+              <li><a href="https://www.facebook.com/thalente.sithole.397" class="contact__socials-link">Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/thalente-sithole-a863911b5/" class="contact__socials-link">LinkedIn</a></li>
+              <li><a href="https://github.com/Thalentesithole" class="contact__socials-link">GitHub</a></li>
+              <li><a href="https://www.instagram.com/thalentejobe_/" class="contact__socials-link">Instagram</a></li>
+            </ul>
+          </div>
+          <div class="contact__form">
+            <p class="contact__form-title">Or send a message here_</p>
+            <form action="" id="contact-form">
+              <div class="contact__input-div">
+                <input type="text" name="name" placeholder="Your name" class="contact__input" id="contact-name"/>
+              </div>
+              <div class="contact__input-div">
+                <input type="email" name="email" placeholder="Your e-mail" class="contact__input" id="contact-email"/>
+              </div>
+              <div class="contact__input-div">
+                <textarea name="message" placeholder="Type your message here" class="contact__input textarea" id="message" cols="30" rows="6"></textarea>
+              </div>
+              <p class="contact__message text-sm" id="contact-message"></p>
+              <button type="submit" class="button contact__button">SEND</button>
+            </form>
+            <p class="footer__copy">&copy; 2025 Thalente Sithole. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="assets/js/mixitup.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/common.js"></script>
+
+  <script>
+
+  </script>
+
+</body>
+</html>
